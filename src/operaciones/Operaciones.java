@@ -6,35 +6,56 @@
 package operaciones;
 
 /**
- *
- * @author sonix
+ * @version codigo 1
+ * @author Borja
  */
 public class Operaciones {
 
+    /**
+     * El metodo sumar par tiene dos enteros como parametros de entradas y los
+     * suma después comprueba que el resto sea 0 al dividirlo entre dos y si es
+     * par le suma 1 al resultado si no solo devuelve el resultado
+     *
+     * @param a integer
+     * @param b integer
+     * @return devuelve la suma de ambos enteros
+     */
     public int sumarPar(int a, int b) {
         int resultado = a + b;
-        if(resultado%2==0){
-            return resultado+1;
-        }else{
+        if (resultado % 2 == 0) {
+            return resultado + 1;
+        } else {
             return resultado;
         }
     }
 
     public int mayor(int a, int b) {
-        if(a>b){
+        /**
+         *El metodo mayor recibe dos enteros y los comprueba en un if, devolviendo el que sea mayor
+         * @param a integer
+         * @param b integer
+         * @return devuelve el entero mayor
+         */
+        if (a > b) {
             return a;
-        }else{
+        } else {
             return a;
         }
     }
 
-   
-    public int sumarVector(int [] numeros) {
-        int sum=0;
+    public int sumarVector(int[] numeros) {
+        /**
+         * el metodo sumar vector recibe un array de enteros que luego suma.
+         *
+         * @param a integer
+         * @param b integer
+         * @return devuelve la suma de los indices
+         */
+        int sum = 0;
         for (int i = 0; i < numeros.length; i++) {
-            sum+=numeros[0];
+            sum += numeros[0];
         }
         return sum;
     }
-    
+
 }

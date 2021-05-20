@@ -52,7 +52,7 @@ public class OperacionesTest {
         int result = instance.sumarPar(a, b);
         assertEquals(expResult, result);
     }
-    @Ignore
+    
     @Test
     public void testSumarImpar() {
         System.out.println("sumarImpar");
@@ -104,6 +104,7 @@ public class OperacionesTest {
     /**
      * Test of sumarVector method, of class Operaciones.
      */
+    @Ignore
     @Test
     public void testSumarVector() {
         System.out.println("sumarVector");
