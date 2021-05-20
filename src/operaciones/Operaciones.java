@@ -23,9 +23,9 @@ public class Operaciones {
     public int sumarPar(int a, int b) {
         int resultado = a + b;
         if (resultado % 2 == 0) {
-            return resultado + 1;
-        } else {
             return resultado;
+        } else {
+            return resultado + 1;
         }
     }
 
@@ -36,10 +36,12 @@ public class Operaciones {
          * @param b integer
          * @return devuelve el entero mayor
          */
-        if (a > b) {
+        if (a > b) { //if else para b
+            return a;
+        } else if (b == a) {
             return a;
         } else {
-            return a;
+            return b;
         }
     }
 
@@ -52,8 +54,9 @@ public class Operaciones {
          * @return devuelve la suma de los indices
          */
         int sum = 0;
+        //poner una i en vez del 0
         for (int i = 0; i < numeros.length; i++) {
-            sum += numeros[0];
+            sum += numeros[i];
         }
         return sum;
     }

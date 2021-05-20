@@ -18,12 +18,12 @@ public class Main {
         Operaciones operaciones = new Operaciones();
         
         //prueba sumarPar:
-        int resultado = operaciones.sumarPar(4,4);    
+        /*int resultado = operaciones.sumarPar(4,4);    
         System.out.println(resultado);
         
         //prueba mayor:
         int resultado2 = operaciones.mayor(8,8);    
-        System.out.println(resultado2);
+        System.out.println(resultado2);*/
         
         //prueba sumarVector:
         int[] vector = {4,2,4,6};
