@@ -78,7 +78,7 @@ public class OperacionesTest {
         int result = instance.mayor(a, b);
         assertEquals(expResult, result);
     }
-    
+    @Ignore
     @Test
     public void testMayorB() {
         System.out.println("mayor");
@@ -89,18 +89,16 @@ public class OperacionesTest {
         int result = instance.mayor(a, b);
         assertEquals(expResult, result);
     }
-    @Ignore
+    
     @Test
     public void testIgual() {
         System.out.println("mayor");
-        int a = 0;
-        int b = 0;
         Operaciones instance = new Operaciones();
-        int expResult = 0;
+        int a = 2;
+        int b = 2;
+        int expResult = 2;
         int result = instance.mayor(a, b);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     /**
